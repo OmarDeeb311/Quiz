@@ -119,7 +119,7 @@ function startTime(element, length) {
 
   let demo = document.createElement("span");
   demo.className = "time";
-  demo.innerHTML = "Timer : 01:10";
+  demo.innerHTML = "Timer : 00:30";
   element.insertBefore(demo, element.firstChild);
 
   let timer = document.createElement("span");
@@ -127,7 +127,7 @@ function startTime(element, length) {
   timer.classList.add("time", "toggle");
 
   //! Sets The Full Time of Each Question
-  let full_time_in_sec = 70;
+  let full_time_in_sec = 29;
   let seconds;
   let minutes = Math.floor(full_time_in_sec / 60);
 
